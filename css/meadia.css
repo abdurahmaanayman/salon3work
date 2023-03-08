@@ -1,0 +1,252 @@
+/************* mobile***/
+@media (max-width: 867px){
+ /************************************************navbar******************************************************/
+    .up-nav .son-nav{
+        display: grid;
+        grid-template-columns: 60% 0% 40%;
+    }
+    .up-nav .son-nav .button-nav button{
+        visibility: visible;
+        float: right;
+    }
+    .up-nav .son-nav .logo-nav img{
+        float: right;
+        
+    }
+    .up-nav .son-nav .details-nav{
+        visibility: hidden;
+    }
+    /***************************************background*********************************************************/
+    /**************************************************hidden-nav**********************************************/
+    /*********************************************ourproducts**************/
+    .up-our-products .products p{
+        font-size: large;
+    }
+    .up-our-products .son-our-products .items{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .up-our-products .son-our-products .items .details h3{
+        font-size:large;
+    }
+    .up-our-products .son-our-products .items .details hr{
+        margin:5px auto;
+    }
+    .up-our-products .son-our-products .items .details p{
+        letter-spacing: .5px;
+    }
+    .up-our-products .son-our-products .items .details span{
+        font-size: large;
+        
+        letter-spacing: .5px;
+    }
+    /**************************************footer************************************************************/
+    .up-footer{
+        height: 100%;
+    }
+    .up-footer .son-footer{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
+/*******************************************************************************************************
+/*******************************************************************************************************
+***************************************location*********************************************************
+/*******************************************************************************************************
+/*******************************************************************************************************/
+  /****our maasage**************/
+    .ourLocation-massage .son{
+        height: 90vh;
+        padding: 0px;
+    }
+    /**********adress******/
+    .main-adress .son-main-adress{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .main-adress .son-main-adress .details{
+        padding-right: 10px;
+        line-height: 30px;
+        text-align: center;    
+    }
+    .main-adress .son-main-adress .details span{
+        display: inline;
+    }
+    .main-adress .son-main-adress .details p{
+        font-size: large;
+    }
+
+    /***/
+    .main-adress-two .son-main-adress{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .main-adress-two .son-main-adress .details{
+        padding-right: 10px;
+        line-height: 30px;
+        text-align: center;    
+    }
+    .main-adress-two .son-main-adress .details span{
+        display: inline;
+    }
+    .main-adress-two .son-main-adress .details p{
+        font-size: large;
+    }
+    
+/*******************************************************************************************
+/*******************************************************************************************
+/*******************************************************************************************
+/**********************************ourteam**************************************************
+/*******************************************************************************************
+/*******************************************************************************************
+/******************************************************************************************/
+   /****items****/
+    .up-our-team .son-our-team .items{
+        display: grid;
+        grid-template-columns: auto;
+        margin-bottom: 10px;
+        
+    } 
+
+       
+/*******************************************************************************************
+/*******************************************************************************************
+/*******************************************************************************************
+/**********************************؛products**************************************************
+/*******************************************************************************************
+/*******************************************************************************************
+/******************************************************************************************/
+   .main-pro .son-pro{
+    
+    display: grid;
+    grid-template-columns: auto; 
+    margin: 0 auto;
+}
+
+.main-pro .son-pro .pro .categorey-face{
+    display: grid;
+    grid-template-columns: auto;
+   
+    
+}
+.main-pro .son-pro .pro .categorey-hair{
+   display: grid;
+    grid-template-columns: auto;
+   
+    
+}
+.main-pro .son-pro .pro .categorey-face-kids{
+     display: grid;
+    grid-template-columns: auto;
+    
+    
+}
+.main-pro .son-pro .pro .categorey-hair-kids{
+    display: grid;
+    grid-template-columns: auto;
+   
+    
+}
+.main-pro .son-pro .pro .items {
+    margin-top: 10px;
+   width: 100%;
+  
+}
+
+
+}
+
+/********tablat*****only navbar*********/
+@media  ( max-width:1134px){
+    /************************************************/
+    .up-nav .son-nav{
+        display: grid;
+        grid-template-columns: 60% 0% 40%;
+    }
+    .up-nav .son-nav .button-nav button{
+        visibility: visible;
+        float: right;
+    }
+    .up-nav .son-nav .logo-nav img{
+        float: right;
+    }
+    .up-nav .son-nav .details-nav{
+        visibility: hidden;
+    }
+    /***************************************background*********************************************************/
+    .up-background .son-background .aboat-back{
+        top: 40vh;
+    }
+    .up-background .son-background .aboat-back h1{
+        color: aliceblue;
+        font-size: x-large;
+        font-family: inherit;
+        letter-spacing: 2px;
+    }
+    .up-background .son-background .aboat-back .line1{
+        width: 150px;
+        margin: 10px auto;
+    }
+    .up-background .son-background .aboat-back .line1 span{
+        display: inline-block;
+        width: 25%;
+    }
+    .up-background .son-background .aboat-back .line2{
+        visibility: hidden;
+    }
+       
+/*******************************************************************************************************
+/*******************************************************************************************************
+***************************************location*********************************************************
+/*******************************************************************************************************
+/*******************************************************************************************************/
+
+
+
+}/*****only footer****/
+@media ( max-width:1000px){
+    .up-footer{
+        height: 100%;
+    }
+    .up-footer .son-footer{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+}
+@media (min-width:868px) and ( max-width:1134px){
+           
+/*******************************************************************************************************
+/*******************************************************************************************************
+***************************************location*********************************************************
+/*******************************************************************************************************
+/*******************************************************************************************************/
+
+/*******ourmaasage*****/
+    .ourLocation-massage .son{
+        height: 90vh;
+        padding: 40px;
+
+    }
+
+/*******************************************************************************************
+/*******************************************************************************************
+/*******************************************************************************************
+/**********************************products**************************************************
+/*******************************************************************************************
+/*******************************************************************************************
+/******************************************************************************************/
+.main-pro .son-pro .menu{
+   
+    padding: 20px;
+}
+
+.main-pro .son-pro .menu ul li{
+    margin: 10px;
+}
+
+
+
+}
